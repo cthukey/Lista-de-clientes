@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-collapse: collapse;
+
+    
+}  
+thead tr{
+    background-color: gray;
+}
+thead th{
+    padding: 5px;
+    text-align: left;
+}
+tbody td{
+    padding: 5px;
+}
+tbody button{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #c5c5c5;
+}
+.page{
+    
+    width: 740px;
+    margin: 40px auto;
+}
+.page h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.conteiner{
+    margin-top: 20px;
+    background-color: #0f346b;
+    color: rgba(255, 255, 255, 0.815);
+    
+    
+    display: flex;
+    justify-content: center;
+    place-items: center; 
+
+    padding: 25px;
+    border-radius: 6px;
+
+}
+.divInputs{
+    display: grid;
+}
+.divInputs input{
+    width: 350px;
+    height: 25px;
+
+    border: none;
+}
+.btn{
+    margin-top: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 24, 63);
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    padding:10px;
+    border-radius: 6px;
+    font-weight: bold;
+}

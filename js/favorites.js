@@ -18,9 +18,10 @@ export class favorites{
 
     delete(user){
         let filteredEntries = this.entries
-        .filter(entry => entry.nome !== user.nome)
-        
+        .filter(entry => user.nome !== entry.nome)
         this.entries = filteredEntries
+        
+        this.entries.splice(this.entries,0)
         this.update()
         this.save()
     }

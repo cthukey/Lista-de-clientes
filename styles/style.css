@@ -18,7 +18,7 @@ body{
 }
 .conteiner{
     margin-top: 20px;
-    background-color: #0f346b;
+    background-color: #17141f;
     color: rgba(255, 255, 255, 0.815);
     
     
@@ -42,7 +42,7 @@ body{
 .btn{
     margin-top: 8px;
     color: rgb(255, 255, 255);
-    background-color: rgb(3, 24, 63);
+    background-color: rgb(67, 60, 88);
     border: none;
     text-align: center;
     cursor: pointer;

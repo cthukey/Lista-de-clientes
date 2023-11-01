@@ -18,7 +18,7 @@ export class favorites{
 
     delete(user){
         let filteredEntries = this.entries
-        .filter(entry => user.nome !== entry.nome)
+        .filter(entry => user.contato !== entry.contato)
         this.entries = filteredEntries
         
         this.entries.splice(this.entries,0)
@@ -52,8 +52,6 @@ export class favoritesView extends favorites{
             novaPessoa.contato = this.contato.value
             
             this.entries.push(novaPessoa)
-            // console.log(this.entries)
-            // this.reset()
 
             this.save()
             this.update()
